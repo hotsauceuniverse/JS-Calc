@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <script defer src="main.js"></script>
+
+  <title>Document</title>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <td colspan="4">
+        <input type="text" id="display">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <input type="text" id="result">
+      </td>
+    </tr>
+    <tr>
+      <th colspan="3" onclick="reset()">AC</th>
+      <th>⌫</th>
+    </tr>
+    <tr>
+      <th onclick="add(7)">7</th>
+      <th onclick="add(8)">8</th>
+      <th onclick="add(9)">9</th>
+      <th onclick="add('*')">x</th>
+    </tr>
+    <tr>
+      <th onclick="add(4)">4</th>
+      <th onclick="add(5)">5</th>
+      <th onclick="add(6)">6</th>
+      <th onclick="add('/')">/</th>
+    </tr>
+    <tr>
+      <th onclick="add(1)">1</th>
+      <th onclick="add(2)">2</th>
+      <th onclick="add(3)">3</th>
+      <th onclick="add('+')">+</th>
+    </tr>
+    <tr>
+      <th onclick="add(0)">0</th>
+      <th onclick="add('.')">.</th>
+      <th onclick="calc()">=</th>
+      <th onclick="add('-')">-</th>
+    </tr>
+  </table>
+</body>
+</html>
