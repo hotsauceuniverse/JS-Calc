@@ -8,11 +8,14 @@ function calc() {
   let result = eval(display.value)
   document.getElementById('result').value = result
   document.getElementById('display').value = ""
-
- 
 }
 
 function reset() {
   document.getElementById('display').value = ""
   document.getElementById('result').value = ""
+}
+
+function back() {
+  let display = document.getElementById('display')
+  display.value = display.value.substring(0, display.value.length -1)
 }
